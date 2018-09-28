@@ -2,7 +2,7 @@
 
 Vecka|Tisdag |Torsdag|Fredag
 -----|-------|-------|------
-2|[TBA](lecture20190108.md)|TBA|TBA
+2|[TBA](lecture20190108.md)<br />8:30 - 16:00|TBA|TBA
 3|TBA|TBA|
 4|TBA|TBA|
 5|TBA|TBA|TBA
