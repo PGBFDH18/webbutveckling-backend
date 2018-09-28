@@ -1,8 +1,8 @@
-## Webutveckling backend
+## Schema
 
 Vecka|Tisdag |Torsdag|Fredag
 -----|-------|-------|------
-2|TBA|TBA|TBA
+2|[TBA](lecture20190108.md)|TBA|TBA
 3|TBA|TBA|
 4|TBA|TBA|
 5|TBA|TBA|TBA
@@ -10,9 +10,7 @@ Vecka|Tisdag |Torsdag|Fredag
 7|TBA|TBA|
 8|TBA|TBA|Tenta
 
-You can use the [editor on GitHub](https://github.com/PGBFDH18/webbutveckling-backend/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
 
 ### Markdown
 
