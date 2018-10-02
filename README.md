@@ -1,0 +1,1 @@
+In this repo you will find lecture information etc for the course Webuteckling Backend at Teknikhögskolan in Gothenburg, Sweden. Winter 2019

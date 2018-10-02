@@ -2,44 +2,12 @@
 
 Vecka|Tisdag |Torsdag|Fredag
 -----|-------|-------|------
-2|[TBA](lecture20190108.md)<br />8:30 - 16:00|TBA|TBA
-3|TBA|TBA|
-4|TBA|TBA|
-5|TBA|TBA|TBA
-6|TBA|TBA|
-7|TBA|TBA|
-8|TBA|TBA|Tenta
+2|[TBA](lecture20190108.md)<br />8:30 - 16:00|[TBA](lecture20190110.md)<br />8:30 - 16:00|[TBA](lecture20190111.md)<br />8:30 - 16:00
+3|[TBA](lecture20190115.md)<br />8:30 - 16:00|[TBA](lecture20190117.md)<br />8:30 - 16:00|
+4|[TBA](lecture20190122.md)<br />8:30 - 16:00|[TBA](lecture20190124.md)<br />8:30 - 16:00|
+5|[TBA](lecture20190129.md)<br />8:30 - 16:00|[TBA](lecture20190131.md)<br />8:30 - 16:00|[TBA](lecture20190201.md)<br />8:30 - 16:00
+6|[TBA](lecture20190205.md)<br />8:30 - 16:00|[TBA](lecture20190207.md)<br />8:30 - 16:00|
+7|[TBA](lecture20190212.md)<br />8:30 - 16:00|[TBA](lecture20190214.md)<br />8:30 - 16:00|
+8|[TBA](lecture20190219.md)<br />8:30 - 16:00|[TBA](lecture20190221.md)<br />8:30 - 16:00|[Tenta](lecture20190222.md)<br />9:00 - 11:00
 
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PGBFDH18/webbutveckling-backend/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
