@@ -2,7 +2,7 @@
 
 Vecka|Tisdag |Torsdag|Fredag
 -----|-------|-------|------
-2|[Introduktion till internet och agile](lecture20190108.md)<br />8:30 - 16:00|[TBA](lecture20190110.md)<br />8:30 - 16:00|[TBA](lecture20190111.md)<br />8:30 - 16:00
+2|[Introduktion till internet och processor](lecture20190108.md)<br />8:30 - 16:00|[TBA](lecture20190110.md)<br />8:30 - 16:00|[TBA](lecture20190111.md)<br />8:30 - 16:00
 3|[TBA](lecture20190115.md)<br />8:30 - 16:00|[TBA](lecture20190117.md)<br />8:30 - 16:00|
 4|[TBA](lecture20190122.md)<br />8:30 - 16:00|[TBA](lecture20190124.md)<br />8:30 - 16:00|
 5|[TBA](lecture20190129.md)<br />8:30 - 16:00|[TBA](lecture20190131.md)<br />8:30 - 16:00|[TBA](lecture20190201.md)<br />8:30 - 16:00
