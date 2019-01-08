@@ -11,3 +11,5 @@ Vecka|Tisdag |Torsdag|Fredag
 8|[TBA](lecture20190219.md)<br />8:30 - 16:00|[TBA](lecture20190221.md)<br />8:30 - 16:00|[Tenta](lecture20190222.md)<br />9:00 - 11:00
 
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
+
+Something useful
