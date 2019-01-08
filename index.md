@@ -12,4 +12,4 @@ Vecka|Tisdag |Torsdag|Fredag
 
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
 
-Bla lblaa blal
+Something useful
