@@ -1,11 +1,11 @@
-## Schema
+# Schema
 
 Vecka|Tisdag |Torsdag|Fredag
 -----|-------|-------|------
-2|[Introduktion till internet och processor](lecture20190108.md)<br />2019-01-08, 8:30 - 16:00|[Internets protokoller](lecture20190110.md)<br />2019-01-10, 8:30 - 16:00|[Arkitektur, URL och REST](lecture20190111.md)<br />2019-01-11, 8:30 - 16:00
+2|[Introduktion till internet och utvecklingsprocessor](lecture20190108.md)<br />2019-01-08, 8:30 - 16:00|[Internets protokoller](lecture20190110.md)<br />2019-01-10, 8:30 - 16:00|[Arkitektur, URL och REST](lecture20190111.md)<br />2019-01-11, 8:30 - 16:00
 3||[API design](lecture20190115.md)<br />2019-01-17, 8:30 - 16:00|[ASP.NET, bygg och deploy](lecture20190117.md)<br />2019-01-18, 8:30 - 16:00
-4|[Clean code](lecture20190122.md)<br />2019-01-22, 8:30 - 16:00<br /> extern|[MVC + MVVP](lecture20190124.md)<br />2019-01-24, 8:30 - 16:00|
-5|[Introduktion till HTML och Razor](lecture20190129.md)<br />2019-01-29, 8:30 - 16:00|[Cookies och sessioner](lecture20190131.md)<br />2019-01-31, 8:30 - 16:00|[Automatiska test, logging och felsökning](lecture20190201.md)<br />2019-02-01, 8:30 - 16:00
+4|[Clean code](lecture20190122.md)<br />2019-01-22, 8:30 - 16:00<br /> extern|[Introduktion till HTML och MVC](lecture20190124.md)<br />2019-01-24, 8:30 - 16:00|
+5|[Razor och input validering](lecture20190129.md)<br />2019-01-29, 8:30 - 16:00|[Cookies och sessioner](lecture20190131.md)<br />2019-01-31, 8:30 - 16:00|[Automatiska test, logging och felsökning](lecture20190201.md)<br />2019-02-01, 8:30 - 16:00
 6|[Introduktion till javascript](lecture20190205.md)<br />2019-02-05, 8:30 - 16:00<br /> extern|[Asynkron Web och SignalR](lecture20190207.md)<br />2019-02-07, 8:30 - 16:00|
 7|[Cloud, Middleware och containers](lecture20190212.md)<br />2019-02-12, 8:30 - 16:00|[Säkkerhet, I18N och L10n](lecture20190214.md)<br />2019-02-14, 8:30 - 16:00|
 8|[Andra webstacks och ASP.NET Webforms](lecture20190219.md)<br />2019-02-19, 8:30 - 16:00|[Sammanfatning och frågor](lecture20190221.md)<br />2019-02-21, 8:30 - 16:00|[Tenta](lecture20190222.md)<br />2019-02-22, 9:00 - 11:00
