@@ -11,3 +11,26 @@ Vecka|Tisdag |Torsdag|Fredag
 8|[Andra webstacks och ASP.NET Webforms](lecture20190219.md)<br />2019-02-19, 8:30 - 16:00|[Sammanfatning och frågor](lecture20190221.md)<br />2019-02-21, 8:30 - 16:00|[Tenta](lecture20190222.md)<br />2019-02-22, 9:00 - 11:00
 
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
+
+# Projekter och deadlines
+
+Projekt 1: [Fia konsol applikation](project1.md) - Inte betygsgrundande
+* Start: 2019-01-08
+* Slut: 2019-01-17, kl 13:00
+
+Projekt 2: Fia Web API
+* Start: 2019-01-17
+* Slut: 2019-01-29
+* Försök 2: 2019-02-12
+* Försök 3: 2019-02-26
+
+Projekt 3: Fia Web App
+* Start: 2019-01-29
+* Slut: 2019-02-19
+* Försök 2: 2019-03-05
+* Försök 3: 2019-03-19
+
+Tenta
+* Ordinär: 2019-02-22
+* Omtenta 1: 2019-03-08
+* Omtenta 2: 2019-03-22
