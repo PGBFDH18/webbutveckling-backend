@@ -18,7 +18,7 @@ Projekt 1: [Fia konsol applikation](project1.md) - Inte betygsgrundande
 * Start: 2019-01-08
 * Slut: 2019-01-17, kl 13:00
 
-Projekt 2: Fia Web API
+Projekt 2: [Fia Web API](project2.md)
 * Start: 2019-01-17
 * Slut: 2019-01-29
 * Försök 2: 2019-02-12

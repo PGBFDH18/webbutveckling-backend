@@ -1,5 +1,7 @@
 # Fia Web App
 
+![Draft](C:\GitHub\webbutveckling-backend\draft.jpg)
+
 Detta projekt bygger vidre på projektet Fia Web API. Eran nya Web App ska använda ert Web API från det förra projekt, man kan säga att målet är att bygga på ett grafisk använder gränssnitt till ert API.
 
 Allt ni gör skall göras i ert GitHub repo (båda kod och dokumentation), som ligger på ert Team. Ni skall använda en ["commit tidigt och ofta"](https://blog.codinghorror.com/check-in-early-check-in-often/) ([1](https://sethrobertson.github.io/GitBestPractices/)) strategi, såklart bör ni endast commita kod som kan kompileras.
