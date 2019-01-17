@@ -7,24 +7,28 @@ Ert repositiory ska vara konfigurerat så att det enda sätt att få in kod i ma
 
 # Dokumentation
 
-Innan ni går på gång med att implementera koden till Web Apiet ska ni skriva en OpenAPI dokumentaion av APIet, se till att få med så månda detaljer som möjligt, och gära exempler på vad APIet retunera. Denna OpenAPI fil ska ni placera i */docs* mappen.
+Se till att skriv och uppdatera eran [user stories](https://www.mountaingoatsoftware.com/agile/user-stories) (i */docs* mappen), så att dom passer med ert Web Api. Om ni använder någon externa källor (båda kod och annat) ange dom i dokumentationen.
 
-Det kan rekomenderas att använda SwaggerHub till att skriva filen i, där finns även i SwaggerHub en [Github integration](https://app.swaggerhub.com/help/integrations/github-sync) som gör det möjligt att ha eran OpenApi definations fil i Github.
+Evt dokumentation ska skrivas med markdown (.md), ni väljer själv om ni vill skriva på svenska eller engelska, markdown filerna placeras i */docs* mappen.
 
-Se till att skriv och uppdatera eran [user stories](https://www.mountaingoatsoftware.com/agile/user-stories) (i docs mappen), så att dom passer med ert Web Api. Om ni använder någon externa källor (båda kod och annat) ange dom i dokumentationen.
+## OpenAPI beskriving av API
 
-Dokumentation ska skrivas med markdown (.md), ni väljer själv om ni vill skriva på svenska eller engelska, markdown filerna placeras i **docs** mappen.
+Innan ni går på gång med att implementera koden till Web APIet ska ni skriva en OpenAPI dokumentaion av APIet, se till att få med så månda detaljer som möjligt, och gära exempler på vad APIet retunera. Denna OpenAPI fil ska ni placera i */docs* mappen.
 
-Gör också ett dokument som beskriver hur man använder ert API.
+Ett exemplet kunne vara att kalla den */docs/ludowebapi.yml*.
+
+Ni kan använda SwaggerHub till att skriva OpenAPI filen i, där finns även i SwaggerHub en [Github integration](https://app.swaggerhub.com/help/integrations/github-sync) som gör det möjligt att ha eran OpenApi definations fil i Github.
+
+Alternativt kan ni Visual Studio Code till att skriva filen med, och lägg till extentions för OpenAPI som underlätter jobbat.
 
 # Programmering
 I detta projekt ska ni implementera ett Web API till ert Fia spel (Ludo på engelska). Spelet ska vara en .NET Core Web API.
 
 Kod ska ligga i mappen **src**, varje team får enbart ha **en kodbas**. Där finns i detta repository en *gitignore*-fil som passer till Visual Studio, i **src**-mappen finns även en tom solution, denna kan ni använda till att lägga till eran projekt (Web API och GameEngine)
 
-Det rekomeneras att ni kopiere in eran game engine i eran **src**-mapp.
+Önsker ni inte att använda eran egen game engine, kan ni här hitta en väldigt basic ludo game engine: [LudoGameEngine](https://github.com/skjohansen/LudoGameEngine)
 
-ônsker ni inte att använda eran egen game engine, kan ni här hitta en väldigt basic ludo game engine: [LudoGameEngine](https://github.com/skjohansen/LudoGameEngine)
+Det rekomeneras att ni kopiere in game enginen i eran **src**-mapp.
 
 ## Grundtanken 
 Det ska vara möjligt att spela spelet för mellan två och fyra "spelare".
@@ -39,7 +43,7 @@ Konfigurer byggen av eran API i Azure DevOps
 Detta projekt är betygsgrundande.
 
 ## Pull request
-Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master som räcknas, så ni behöver att göra minst ett pull request från eran branch(s) till *master* under projektet med reviewers från ett annat team. Varje branch får två reviews teams upplagt på ert repo av underviseren.
+Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master på **GitHub** som räcknas, så ni behöver att göra minst ett pull request från eran branch(s) till *master* under projektet med reviewers från ett annat team. Varje branch får två reviews teams upplagt på ert repo av underviseren.
 
 ## För G
 * En (och endast en) Visual Studio solution placerat i mappen Src
@@ -50,11 +54,31 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Koden kompilera och det går att köra projektet lokalt
 * All logik som rör spelet, även kast av tärning, är placerat i spelmotorn
 * En OpenAPI fil som beskriver hur APIet är upplagt
-* Som api användere ska gå att joina skåpa ett eller fler spel
-* Som api användere ska gå att spela ett eksisterende spel
+* Som api-användere ska gå att skåpa ett eller fler spel
+* Som api-användere ska gå att spela ett eksisterende spel
 
 ## För VG (G + minst 3 för VG)
 * CI i Azure Devops (dokumentation för detta läggs i Docs mappen)
 * Automatiska test av API som kan köras lokalt
-* PostMan testar
+* PostMan testar, det är möjligt i Postman att konfigurera Team Workspaces som man kan dele api requests med varandra, man även importera en OpenAPI fil. 
+* En applikation som gör det möjligt att spela Fia via Web APIet (detta kunna vara en konsol applikation)
 * **MORE TO COME**
+
+# Hints
+## API 
+Ett **förslag** på resources och hur olika metoder påverkar dom
+
+|                                   | GET<br />read                                                | POST<br />create                    | PUT<br />update                   | DELETE<br />delete |
+| --------------------------------- | ------------------------------------------------------------ | ----------------------------------- | --------------------------------- | ------------------ |
+| /ludo                             | Lista av fia spel                                            | Skåpa ett nytt spel                 | N/A                               | N/A                |
+| /ludo/{gameId}                    | Detaljeret information om spelet, som vart alla pjäser finns | N/A                                 | Ändra placering på en pjäs        | Ta bort ett spel   |
+| /ludo/{gameId}/players            | List med alla spelera i spelet                               | Lägg till en ny spelere till spelet | N/A                               | N/A                |
+| /ludo/{gameId}/players/{playerId} | Detajeret information om speleren                            | N/A                                 | Ändra namn eller färg på speleren | Ta bort speleren   |
+
+## Console app
+
+Exempel på hur du kan använda och testa ett REST Web API med en konsol applikation (eller annat C# kod)
+
+## Postman
+
+Postman är ett program som kan användas till att tillgå och testa ett Web API, man kan tänka på Postman som en webläsere för WebAPIer (ursprungligt var Postman en extention till Chrome).
