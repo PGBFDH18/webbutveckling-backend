@@ -1,6 +1,6 @@
 # Fia Web App
 
-![Draft](C:\GitHub\webbutveckling-backend\draft.jpg)
+![Draft](draft.jpg)
 
 Detta projekt bygger vidre på projektet Fia Web API. Eran nya Web App ska använda ert Web API från det förra projekt, man kan säga att målet är att bygga på ett grafisk använder gränssnitt till ert API.
 
