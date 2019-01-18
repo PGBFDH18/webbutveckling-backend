@@ -13,7 +13,8 @@ Evt dokumentation kan skrivas med markdown (.md) eller ett annat format som ni k
 
 ## OpenAPI beskriving av API
 
-Innan ni går på gång med att implementera koden till Web APIet ska ni skriva en OpenAPI dokumentaion av APIet, se till att få med så månda detaljer som möjligt, och gära exempler på vad APIet retunera. Denna OpenAPI fil ska ni placera i */docs* mappen.
+Innan ni går på gång med att implementera koden till Web APIet ska ni skriva en OpenAPI dokumentaion av APIet, se till att få med så många detaljer som möjligt, och gära exempler på vad APIet retunera. Denna OpenAPI fil ska ni placera i */docs* mappen.
+Dock är OpenAPI en stor specifikation, och det är orealistisk innom projekts tidsram att få med alla detaljer i OpenAPI, så det viktigaste är att ni beskriver vilka paths och metoder som är till tillgängliga på dissa paths.
 
 Ett exemplet kunne vara att kalla den */docs/ludowebapi.yml*.
 
