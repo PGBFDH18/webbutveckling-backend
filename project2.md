@@ -9,7 +9,7 @@ Ert repositiory ska vara konfigurerat så att det enda sätt att få in kod i ma
 
 Se till att skriv och uppdatera eran [user stories](https://www.mountaingoatsoftware.com/agile/user-stories) (i */docs* mappen), så att dom passer med ert Web Api. Om ni använder någon externa källor (båda kod och annat) ange dom i dokumentationen.
 
-Evt dokumentation ska skrivas med markdown (.md), ni väljer själv om ni vill skriva på svenska eller engelska, markdown filerna placeras i */docs* mappen.
+Evt dokumentation kan skrivas med markdown (.md) eller ett annat format som ni känner er bekväma med (.txt, .docx, .html, .pdf etc), ni väljer själv om ni vill skriva på svenska eller engelska, enda krav är att filerna placeras i */docs* mappen.
 
 ## OpenAPI beskriving av API
 
