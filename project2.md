@@ -78,6 +78,14 @@ Ett **förslag** på resources och hur olika metoder påverkar dom
 ## Console app
 
 Exempel på hur du kan använda och testa ett REST Web API med en konsol applikation (eller annat C# kod)
+Nuget paket: [RESTSharp](https://www.nuget.org/packages/RestSharp/) ([Projekt på Github](https://github.com/restsharp/RestSharp))
+
+```csharp
+var client = new RestClient("http://ludoapi.com");
+
+var request = new RestRequest("ludo/{id}", Method.GET);
+request.AddUrlSegment("id", "123"); // replaces matching token in request.Resource
+```
 
 ## Postman
 
