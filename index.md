@@ -20,17 +20,21 @@ Projekt 1: [Fia konsol applikation](project1.md) - Inte betygsgrundande
 
 Projekt 2: [Fia Web API](project2.md)
 * Start: 2019-01-17
-* Slut: 2019-01-29
+* Slut: 2019-01-29 (inlämning via Github, master-branch)
 * Försök 2: 2019-02-12
 * Försök 3: 2019-02-26
 
 Projekt 3: Fia Web App
 * Start: 2019-01-29
-* Slut: 2019-02-19
+* Slut: 2019-02-19 (inlämning via Github, master-branch)
 * Försök 2: 2019-03-05
 * Försök 3: 2019-03-19
 
-Tenta
+[Tenta](lecture20190222.md)
 * Ordinär: 2019-02-22
 * Omtenta 1: 2019-03-08
 * Omtenta 2: 2019-03-22
+
+# Verktyg
+Vi kommer i kursen att använda en rad olika versktyg
+* [Verktygslådan](tools.md)
