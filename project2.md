@@ -63,8 +63,8 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Automatiska test av API som kan köras lokalt
 * PostMan testar, det är möjligt i Postman att konfigurera Team Workspaces som man kan dele api requests med varandra, man även importera en OpenAPI fil. 
 * En applikation som gör det möjligt att spela Fia via Web APIet (detta kunna vara en konsol applikation)
-* 
-* **MORE TO COME**
+* Lagring av data, spel data lagres äntligen disk eller i någon form av databas
+* **MORE TO COME, kom med förslag**
 
 # Hints
 ## API 
@@ -83,12 +83,17 @@ Exempel på hur du kan använda och testa ett REST Web API med en konsol applika
 Nuget paket: [RESTSharp](https://www.nuget.org/packages/RestSharp/) ([Projekt på Github](https://github.com/restsharp/RestSharp))
 
 ```csharp
+// Retrive the name of a specific Ludo game using the REST API
 var client = new RestClient("http://ludoapi.com");
 
 var request = new RestRequest("ludo/{id}", Method.GET);
 request.AddUrlSegment("id", "123"); // replaces matching token in request.Resource
-//TODO: perform request + read result
+RestResponse<LudoGame> ludoGameResponse = client.Execute<LudoGame>(request);
+var gameName = ludoGameResponse.Data.GameName;
+
 ```
+
+Kolla evt denna artikel med olika tillgångar till hur man kan kommunicera med ett REST API: [A Few Great Ways to Consume RESTful API in C#](https://code-maze.com/different-ways-consume-restful-api-csharp/)
 
 ## Postman
 
