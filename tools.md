@@ -8,6 +8,7 @@
 ## Programmering
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Visual Studio 2017 (Community edition räcker)
+- [JSFiddle](https://jsfiddle.net/) Online site till att leka med HTML, CSS och Javascript/Typescript
 
 ## Ramverk
 - [.NET core](https://dotnet.microsoft.com/)
