@@ -63,6 +63,7 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Automatiska test av API som kan köras lokalt
 * PostMan testar, det är möjligt i Postman att konfigurera Team Workspaces som man kan dele api requests med varandra, man även importera en OpenAPI fil. 
 * En applikation som gör det möjligt att spela Fia via Web APIet (detta kunna vara en konsol applikation)
+* 
 * **MORE TO COME**
 
 # Hints
@@ -86,6 +87,7 @@ var client = new RestClient("http://ludoapi.com");
 
 var request = new RestRequest("ludo/{id}", Method.GET);
 request.AddUrlSegment("id", "123"); // replaces matching token in request.Resource
+//TODO: perform request + read result
 ```
 
 ## Postman
