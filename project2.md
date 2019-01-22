@@ -111,6 +111,74 @@ var gameName = ludoGameResponse.Data.GameName;
 
 Kolla evt denna artikel med olika tillgångar till hur man kan kommunicera med ett REST API: [A Few Great Ways to Consume RESTful API in C#](https://code-maze.com/different-ways-consume-restful-api-csharp/)
 
+## Dependency injection i ASP.NET core 
+
+För att få till [Dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2) med ASP.NET core kan man i grov drag göra något som detta:
+
+In the startup class use the build in DI
+```csharp
+public class Startup
+{
+	// something
+	public void ConfigureServices(IServiceCollection services)
+	{
+		// something MVC
+		services.AddScoped<GameEngine.IGameEngine, GameEngine.GameEngine>();
+		services.AddScoped<GameEngine.IGameRetriver, GameEngine.FileGames>();
+	}
+	// something
+}
+```
+
+GameEngine:
+```csharp
+namespace GameEngine
+{
+    public interface IGameEngine
+    {
+        List<Game> LoadGames();
+    }
+	
+	public interface IGameRetriver
+    {
+        List<Game> Query(string v);
+    }
+	
+	public class GameEngine : IGameEngine{
+        private IGameRetriver _retriver;
+
+        public GameEngine(IGameRetriver r){
+             _retriver = r;
+        }
+
+        public List<Game> LoadGames(){
+            return _retriver.Query("select whatever");
+        }
+    }
+}
+```
+
+Controller:
+```csharp
+public class ValuesController : ControllerBase
+{
+	
+	private Ge.GameEngine _game;
+	public ValuesController(Ge.GameEngine ge){
+		_game = ge;
+	}
+
+	// GET api/values
+	[HttpGet]
+	public ActionResult<IEnumerable<string>> Get()
+	{
+		return Ok(_games.game.LoadGames().ToArray());
+	}
+
+}
+```
+
+
 ## Postman
 
 Postman är ett program som kan användas till att tillgå och testa ett Web API, man kan tänka på Postman som en webläsere för WebAPIer (ursprungligt var Postman en extention till Chrome).
