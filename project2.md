@@ -54,7 +54,7 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 
 * Koden kompilera och det går att köra projektet lokalt
 * All logik som rör spelet, även kast av tärning, är placerat i spelmotorn
-* En OpenAPI fil som beskriver hur APIet är upplagt
+* Dokumentation av hur APIet är upplagt, en OpenAPI fil (yaml) ør rekomenderat
 * Som api-användere ska gå att skåpa ett eller fler spel
 * Som api-användere ska gå att spela ett eksisterende spel
 
@@ -76,6 +76,22 @@ Ett **förslag** på resources och hur olika metoder påverkar dom
 | /ludo/{gameId}                    | Detaljeret information om spelet, som vart alla pjäser finns | N/A                                 | Ändra placering på en pjäs        | Ta bort ett spel   |
 | /ludo/{gameId}/players            | List med alla spelera i spelet                               | Lägg till en ny spelere till spelet | N/A                               | N/A                |
 | /ludo/{gameId}/players/{playerId} | Detajeret information om speleren                            | N/A                                 | Ändra namn eller färg på speleren | Ta bort speleren   |
+
+Beskrivet med OpenAPI:
+```yaml
+openapi: 3.0.0
+info:
+  title: Ludo Api
+paths:
+  /ludo:
+    get:
+	  description: Lista av fia spel   
+	post:
+	  description: Skåpa ett nytt spel
+  /ludo/{gameId}:
+    get:
+	  description: Detaljeret information om spelet, som vart alla pjäser finns
+```
 
 ## Console app
 
