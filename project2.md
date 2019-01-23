@@ -93,14 +93,14 @@ paths:
 	  description: Detaljeret information om spelet, som vart alla pjäser finns
 ```
 ## Kom igång
-1) Börja med att försöka att skissa APIet på något sätt, och spara resultatet i docs-mappen
-1) Öppna solution-filen som ligger i src-mappen, och lägg till ett [nytt WebAPI](https://www.c-sharpcorner.com/article/quick-start-to-create-restful-web-api-in-asp-net-core/)
-1) Lägg till ett existerande GameEngine projekt
-1) Lägg till controllers som matcher dom resurser (paths) som ni har beskrivit i eran dokumentation (från punkt 1)
-1) Lägga till en referens till LudoEngine i ert  Web API
-1) Börja att implementera eran controllere, så att dom använder GameEngine till att göra operationer i spelet
-1) Testa löppande APIet med ett verktyg som Postman
-1) Få till dependency injection (se Hints)
+1. Börja med att försöka att skissa APIet på något sätt, och spara resultatet i docs-mappen
+1. Öppna solution-filen som ligger i src-mappen, och lägg till ett [nytt WebAPI](https://www.c-sharpcorner.com/article/quick-start-to-create-restful-web-api-in-asp-net-core/)
+1. Lägg till ett existerande GameEngine projekt
+1. Lägg till controllers som matcher dom resurser (paths) som ni har beskrivit i eran dokumentation (från punkt 1)
+1. Lägga till en referens till LudoEngine i ert  Web API
+1. Börja att implementera eran controllere, så att dom använder GameEngine till att göra operationer i spelet
+1. Testa löppande APIet med ett verktyg som Postman
+1. Få till dependency injection (se Hints)
 
 ## Anrop APIet från en annan applikation
 
