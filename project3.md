@@ -31,11 +31,11 @@ Det ska bara möjligt att starta fler samtidiga spel, på servern.
 
 Det ska vara möjligt att logga in
 
-Spill brädan ska uppdatera sig async med SignalR
+Spillbrädan ska uppdatera sig async med SignalR
 
 # Bygg
 
-Konfigurer byggen av eran API i Azure DevOps
+Konfigurer byggen av eran Webb App i Azure DevOps
 
 Och deploy till en Azure Webservice
 
