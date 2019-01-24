@@ -13,9 +13,9 @@ Vecka|Tisdag |Torsdag|Fredag
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
 
 ## Externa föreläsere
-* Tisdag 2019-01-22, 13:00: [Iris Classon](https://www.linkedin.com/in/irisclasson/), Konstrukt
-* Tisdag 2019-02-05, 08:30: [Mattias Karlsson](https://www.linkedin.com/in/devlead/), WCOM
-* Torsdag 2019-02-07, 13:00: [Ulf Karlsson](https://www.linkedin.com/in/ulfnkarlsson/), Systemverification
+* [Tisdag 2019-01-22](lecture20190122.md), 13:00: [Iris Classon](https://www.linkedin.com/in/irisclasson/), [Konstrukt](https://www.konstrukt.se/)
+* [Tisdag 2019-02-05](lecture20190205.md), 08:30: [Mattias Karlsson](https://www.linkedin.com/in/devlead/), [WCOM](https://corporate.wcom.se/)
+* [Torsdag 2019-02-07](lecture20190207.md), 13:00: [Ulf Karlsson](https://www.linkedin.com/in/ulfnkarlsson/), [Systemverification](https://systemverification.com/en/)
 
 # Projekter och deadlines
 
