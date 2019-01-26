@@ -29,7 +29,7 @@ Projekt 2: [Fia Web API](project2.md)
 * Försök 2: 2019-02-12
 * Försök 3: 2019-02-26
 
-Projekt 3: Fia Web App
+Projekt 3: [Fia Web App](project3.md)
 * Start: 2019-01-29
 * Slut: 2019-02-19, kl 10:00 (inlämning via Github, master-branch)
 * Försök 2: 2019-03-05
@@ -41,5 +41,5 @@ Projekt 3: Fia Web App
 * Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-03-22
 
 # Annan information
-* [Kursbok](book.md) : I kursen använder vi boken ASP.NET Core in action
+* [Kursbok](book.md) : I kursen använder vi boken *ASP.NET Core in action*
 * [Verktygslådan](tools.md) : Vi kommer i kursen att använda en rad olika versktyg
