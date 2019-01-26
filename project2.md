@@ -85,12 +85,12 @@ info:
 paths:
   /ludo:
     get:
-	  description: Lista av fia spel   
-	post:
-	  description: Skåpa ett nytt spel
+      description: Lista av fia spel   
+    post:
+      description: Skåpa ett nytt spel
   /ludo/{gameId}:
     get:
-	  description: Detaljeret information om spelet, som vart alla pjäser finns
+      description: Detaljeret information om spelet, som vart alla pjäser finns
 ```
 ## Kom igång
 1. Börja med att försöka att skissa APIet på något sätt, och spara resultatet i docs-mappen
