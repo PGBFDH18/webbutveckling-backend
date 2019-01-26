@@ -1,4 +1,4 @@
-# Bok
+# Kursbok
 *[ASP.NET Core in action](https://www.manning.com/books/asp-net-core-in-action) av Andrew Lock*
 
 ISBN 9781617294617

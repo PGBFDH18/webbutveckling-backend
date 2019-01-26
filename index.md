@@ -41,5 +41,5 @@ Projekt 3: Fia Web App
 * Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-03-22
 
 # Annan information
-* [Bok](book.md) : I kursen använder vi boken ASP.NET Core in action
+* [Kursbok](book.md) : I kursen använder vi boken ASP.NET Core in action
 * [Verktygslådan](tools.md) : Vi kommer i kursen att använda en rad olika versktyg
