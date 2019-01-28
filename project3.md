@@ -47,7 +47,7 @@ Det rekomeneras att ni kopiere in ert Web Api och eran game engine i eran **src*
 
 Ni kan välja att ha WebApp, WebApi och GameEngine i eran solution, detta kan vara smidigt om ni ska behöva att debugga eller inte vill vara beroedende av ett API som kör live av nogon anledning. Men ursprungstanken är att ni håller WebAPI och WebApp som två sperate saker. Så att eran solution enbart kommer att innehålla en WebApp som anroper ett API som äntligen körs lokalt eller på en server. 
 
-Önsker ni inte att använda eran eget API, kan ni här hitta ett väldigt basic ludo game API: [](https://github.com/skjohansen/LudoGameEngine)
+Önsker ni inte att använda eran eget API, kan ni här hitta ett väldigt basic ludo game API: [skjohansen/LudoGameApi](https://github.com/skjohansen/LudoGameApi)
 
 
 ## Bygg och deploy
