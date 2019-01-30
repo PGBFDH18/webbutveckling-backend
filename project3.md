@@ -105,7 +105,7 @@ Det är dokumentation och kod som är commitat master-branchen innan torsdag den
 ## Branching och pull request
 Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master på **GitHub** som räcknas, så ni behöver att göra minst ett pull request från eran branch(s) till *master* under projektet med reviewers från ett annat team.
 
-## För G
+## Krav för G
 * Spellogiken styres av ett WebAPI, det rekomderas att använda ert eget API som ni byggd i projekt 2
 * En enkelt grafisk repräsentation av spilbräddan
 * Spelet måste deployas till en webserver (länk till webserver lägga i docs/link.md)
@@ -113,12 +113,13 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Logging av som händer i spelet måste implementeras (här är det en fördel om man använder ett eget API, så att man kan få med logging för även den del)
 * Minst 3 enhetstestar av delar som innehåller logik (controllers)
 
-## För VG (G + minst 3 för VG)
+## Förslag till VG (G krav + minst 3 VG förslag)
 * Inlogning, som är inplementerat med ASP.NET core [authentication och autherization](lecture20190214.md)
 * Continious deployment till ett Azure Website (Azure DevOps rekomenderas till CI och CD), beskriving av hur detta är konfigureret läggs i /docs mappen, gärna med screenshots
 * Möjlighet att bjuda in/utmana flera spelere via epost, använn en tjänst som [SendGrid](https://sendgrid.com) tiill detta
 * Specflow tester
 * Spelets pjäserna på spelet ska uppdateras automatisk via [SignalR](lecture20190207.md)
-* Stöd för Svenska och engelska, baseret på vad som är konfigureret i webläseren
+* Stöd för fler språk/kultur (eg. Svenska och engelska), baseret på vad som är konfigureret i webläseren eller vid login
+* Alternativ gränssnitt mot API som t.ex. konsol eller app 
 * **MORE TO COME: kom med förslag**
 
