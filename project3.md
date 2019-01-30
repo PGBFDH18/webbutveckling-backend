@@ -69,7 +69,7 @@ Försöka att följa SOLID principerna så långt det går.
 
 ## Kom igång
 1. Beskriv med user stories vad ni förvänter att en använder ska kunna i ert fia spel
-1. Beskriv för varje user storie ett eller fler scenarios, med [Gherkin](https://docs.cucumber.io/gherkin/reference/) , dissa kommer att vara till stor hjälp som dokumentation när ni ska implementera funktionalitet i spelet. 
+    *. Eventuelt: Beskriv för varje user storie ett eller fler scenarios, med [Gherkin](https://docs.cucumber.io/gherkin/reference/) , dissa kommer att vara till stor hjälp som dokumentation när ni ska implementera funktionalitet i spelet. 
 1. Skåpa en ASP.NET Core Web Application (Model-View-Controller)
 1. Lägg till en ny tom (empty) controller, kall den "LudoController"
 1. Skåpa en mapp under View, som hettar samma som din controller: "Ludo"
@@ -100,7 +100,7 @@ Kolla evt denna artikel med olika tillgångar till hur man kan kommunicera med e
 # Betygsättning
 Detta projekt är betygsgrundande, och startas tisdag den 29:e januari 2019.
 
-Det är dokumentation och kod som är commitat master-branchen innan tisdag den 21:e februari 2019 kl 10:00 som räcknas.
+Det är dokumentation och kod som är commitat master-branchen innan torsdag den 21:e februari 2019 kl 10:00 som räcknas.
 
 ## Branching och pull request
 Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master på **GitHub** som räcknas, så ni behöver att göra minst ett pull request från eran branch(s) till *master* under projektet med reviewers från ett annat team.
@@ -114,7 +114,7 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Minst 3 enhetstestar av delar som innehåller logik (controllers)
 
 ## För VG (G + minst 3 för VG)
-* Inlogning, som är inplementerat med ASP.NET core [authentication och autherization](lecture20190224.md)
+* Inlogning, som är inplementerat med ASP.NET core [authentication och autherization](lecture20190214.md)
 * Continious deployment till ett Azure Website (Azure DevOps rekomenderas till CI och CD), beskriving av hur detta är konfigureret läggs i /docs mappen, gärna med screenshots
 * Möjlighet att bjuda in/utmana flera spelere via epost, använn en tjänst som [SendGrid](https://sendgrid.com) tiill detta
 * Specflow tester
