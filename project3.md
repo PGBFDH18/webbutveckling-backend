@@ -96,6 +96,15 @@ var gameName = ludoGameResponse.Data.GameName;
 
 Kolla evt denna artikel med olika tillgångar till hur man kan kommunicera med ett REST API: [A Few Great Ways to Consume RESTful API in C#](https://code-maze.com/different-ways-consume-restful-api-csharp/)
 
+## Statiska ressource
+I ASP.NET MVC ska statiska ressourser som CSS läggas i wwwroot mappen:
+
+![wwwroot folder](wwwroot.png)
+
+Och ressourserna som ligger där kommer man åt via HTML:
+```html
+<link rel="stylesheet" href="~/css/site.css" />
+```
 
 # Betygsättning
 Detta projekt är betygsgrundande, och startas tisdag den 29:e januari 2019.
@@ -103,7 +112,7 @@ Detta projekt är betygsgrundande, och startas tisdag den 29:e januari 2019.
 Det är dokumentation och kod som är commitat master-branchen innan torsdag den 21:e februari 2019 kl 10:00 som räcknas.
 
 ## Branching och pull request
-Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master på **GitHub** som räcknas, så ni behöver att göra minst ett pull request från eran branch(s) till *master* under projektet med reviewers från ett annat team.
+Ni kan göra så många branches baseret på *master* som ni önsker. När projektet är slut är det innehållet av master på **GitHub** som räcknas, så ni behöver att göra minst ett pull request eller merge från eran branch(s) till *master* under projektet med reviewers från ett annat team.
 
 ## Krav för G
 * Spellogiken styres av ett WebAPI, det rekomderas att använda ert eget API som ni byggd i projekt 2
