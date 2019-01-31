@@ -20,23 +20,23 @@ Länkarna i schemat leder till detaljerad information om enskilda lektioner och 
 # Projekter och deadlines
 
 Projekt 1: [Fia konsol applikation](project1.md) - Inte betygsgrundande
-* Start: 2019-01-08
-* Slut: 2019-01-17, kl 13:00
+* Start: 2019-01-08, tisdag
+* Slut: 2019-01-17, torsdag, kl 13:00
 
 Projekt 2: [Fia Web API](project2.md)
-* Start: 2019-01-17
-* Slut: 2019-01-29, kl 10:00 (inlämning via Github, master-branch)
+* Start: 2019-01-17, torsdag
+* Slut: 2019-01-29, tisdag, kl 10:00 (inlämning via Github, master-branch)
 * Försök 2: 2019-02-12
 * Försök 3: 2019-02-26
 
 Projekt 3: [Fia Web App](project3.md)
-* Start: 2019-01-29
-* Slut: 2019-02-19, kl 10:00 (inlämning via Github, master-branch)
+* Start: 2019-01-29, tisdag
+* Slut: 2019-02-21, torsdag, kl 10:00 (inlämning via Github, master-branch)
 * Försök 2: 2019-03-05
 * Försök 3: 2019-03-19
 
 [Tenta](lecture20190222.md)
-* Ordinär: 2019-02-22
+* Ordinär: 2019-02-22, fredag
 * Omtenta 1: 14 dagar efter svar på Ordinär, som tidist 2019-03-08
 * Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-03-22
 
