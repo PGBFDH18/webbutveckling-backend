@@ -26,12 +26,12 @@ Projekt 1: [Fia konsol applikation](project1.md) - Inte betygsgrundande
 Projekt 2: [Fia Web API](project2.md)
 * Start: 2019-01-17, torsdag
 * Slut: 2019-01-29, tisdag, kl 10:00 (inlämning via Github, master-branch)
-* Sista deadline för eventuella ändringar: 2019-02-21
+* Deadline för eventuella ändringar: 2019-02-21
 
 Projekt 3: [Fia Web App](project3.md)
 * Start: 2019-01-29, tisdag
 * Slut: 2019-02-21, torsdag, kl 10:00 (inlämning via Github, master-branch)
-* Sidata deadline för eventuella ändringar: 2019-03-14
+* Deadline för eventuella ändringar: 2019-03-14
 
 [Skriftlig tentamen](lecture20190222.md)
 * Ordinär: 2019-02-22, fredag
