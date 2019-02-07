@@ -123,23 +123,23 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Minst 3 enhetstestar av delar som innehåller logik (controllers)
 
 ## Förslag till VG (G krav + minst 2 VG förslag)
-För att ett VG kriterium kan godkänns krävs det att där i docs mappen finns ett matchande dokument med en beskrivning, namner på dokumentet är angivet per kriterium, med ett förslag till vad innehållet av filen kan vara (filen måste vara namngivet med .md, men ni behöver inte använda Markdown formatering).
+För att ett VG kriterium kan godkänns krävs det att där i docs mappen finns ett matchande dokument med en beskrivning, namnet på dokumentet är angivet under varje kriterium, med ett förslag till vad innehållet av filen kan innehålla (filen måste vara namngivet med .md, men ni behöver inte använda Markdown formatering i filen).
 
 * Inlogning, som är inplementerat med ASP.NET core [authentication och autherization](lecture20190214.md)
-    * *docs/vg_auth.md*
+    * *docs/vg_auth.md*, hur kan användern logga på? hur sparas data?
 * Continious deployment till ett Azure Website (Azure DevOps rekomenderas till CI och CD)
     * *docs/vg_cicd.md* som innehåller en beskriving av hur detta är konfigureret läggs, gärna med screenshots
 * Möjlighet att bjuda in/utmana flera spelere via epost, använn en tjänst som [SendGrid](https://sendgrid.com) tiill detta
-    * *docs/vg_email.md*, beskrivning av process
+    * *docs/vg_email.md*, vilken service använns?
 * Specflow tester
-    * *docs/vg_specflow.md*
+    * *docs/vg_specflow.md*, hur många scenarios finns där?
 * Spelets pjäserna på spelet ska uppdateras automatisk via [SignalR](lecture20190207.md) eller en annan async teknologi (som webhooks)
     * *docs/vg_async.md*, ett diagram som viser dataflowet
 * Stöd för fler språk/kultur (eg. Svenska och engelska) i webbgränssnittet, baseret på vad som är konfigureret i webläseren eller vid login
     * *docs/vg_i18n.md*, vilka internationaliserings funktioner har ni använt
 * Extra gränssnitt mot API som t.ex. konsol applikation eller winforms applikation 
     * *docs/vg_altapp.md*, screenshots av applikation och diagram över hur den kommunicera med api
-* Automasik generet dokumentaion (som Mattias Karlson viste) med [Wyam](https://wyam.io)
+* Automasik generet dokumentaion (som Mattias Karlson viste) med ett system som [Wyam](https://wyam.io) eller [DocFx](https://dotnet.github.io/docfx/)
     * *docs/vg_autodoc.md*, länk till sida vart dokumentationen finns
 * **MORE TO COME: kom med förslag**
 
