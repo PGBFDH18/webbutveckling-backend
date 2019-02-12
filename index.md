@@ -7,7 +7,7 @@ Vecka|Tisdag |Torsdag|Fredag
 4|[Clean code](lecture20190122.md)<br />2019-01-22<br />8:30 - 16:00<br />**Iris Classon**|[Introduktion till HTML och MVC](lecture20190124.md)<br />2019-01-24<br />8:30 - 16:00|
 5|[Razor och input validering](lecture20190129.md)<br />2019-01-29<br />8:30 - 16:00|[Cookies och sessioner](lecture20190131.md)<br />2019-01-31<br />8:30 - 16:00|[Automatiserad test och logging](lecture20190201.md)<br />2019-02-01<br />8:30 - 16:00
 6|[Introduktion till javascript](lecture20190205.md)<br />2019-02-05<br />8:30 - 16:00<br />**Mattias Karlsson**|[Asynkron Web och SignalR](lecture20190207.md)<br />2019-02-07<br />8:30 - 16:00<br />**Ulf Karlsson**|
-7|[ASP.NET Middlewar and Cloud](lecture20190212.md)<br />2019-02-12<br />8:30 - 16:00|[Säkkerhet, I18N och L10n](lecture20190214.md)<br />2019-02-14<br />8:30 - 16:00|
+7|[ASP.NET Middleware and Cloud](lecture20190212.md)<br />2019-02-12<br />8:30 - 16:00|[Säkkerhet, I18N och L10n](lecture20190214.md)<br />2019-02-14<br />8:30 - 16:00|
 8|[Andra webstacks och ASP.NET Webforms](lecture20190219.md)<br />2019-02-19, 8:30 - 16:00|[Sammanfatning och frågor](lecture20190221.md)<br />2019-02-21<br />8:30 - 16:00|[Skriftlig tentamen](lecture20190222.md)<br />2019-02-22<br />9:00 - 11:00
 
 Länkarna i schemat leder till detaljerad information om enskilda lektioner och uppgifter.
@@ -39,5 +39,5 @@ Projekt 3: [Fia Web App](project3.md)
 * Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-03-22
 
 # Annan information
-* [Kursbok](book.md) : I kursen använder vi boken *ASP.NET Core in action*
+* [Kursbok](book.md) : I kursen använder vi boken *ASP.NET Core in action* som frivillig material (den behövs inte för att kunna klara kursen)
 * [Verktygslådan](tools.md) : Vi kommer i kursen att använda en rad olika versktyg
