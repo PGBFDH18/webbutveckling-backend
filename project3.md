@@ -120,7 +120,6 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 * Spelet måste deployas till en webserver (länk till webserver lägga i docs/link.md)
 * Input ska vära valideret
 * Logging av som händer i spelet måste implementeras (här är det en fördel om man använder ett eget API, så att man kan få med logging för även den del)
-* Minst 3 enhetstestar av delar som innehåller logik (controllers)
 
 ## Förslag till VG (G krav + minst 2 VG förslag)
 För att ett VG kriterium kan godkänns krävs det att där i docs mappen finns ett matchande dokument med en beskrivning, namnet på dokumentet är angivet under varje kriterium, med ett förslag till vad innehållet av filen kan innehålla (filen måste vara namngivet med .md, men ni behöver inte använda Markdown formatering i filen).
