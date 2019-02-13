@@ -140,5 +140,6 @@ För att ett VG kriterium kan godkänns krävs det att där i docs mappen finns 
     * *docs/vg_altapp.md*, screenshots av applikation och diagram över hur den kommunicera med api
 * Automasik generet dokumentaion (som Mattias Karlson viste) med ett system som [Wyam](https://wyam.io) eller [DocFx](https://dotnet.github.io/docfx/)
     * *docs/vg_autodoc.md*, länk till sida vart dokumentationen finns
+* Using your own API
 * **MORE TO COME: kom med förslag**
 
