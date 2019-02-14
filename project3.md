@@ -116,7 +116,7 @@ Ni kan göra så många branches baseret på *master* som ni önsker. När proje
 
 ## Krav för G
 * Spellogiken styres av ett WebAPI, det rekomderas att använda ert eget API som ni byggd i projekt 2
-* En enkelt grafisk repräsentation av spilbräddan med en Razor View
+* En enkelt grafisk (kan vara text formateret med HTML) repräsentation av spilbräddan med en Razor View
 * Spelet måste deployas till en webserver (länk till webserver lägga i docs/link.md)
 * Input ska vära valideret, i princip ska alla input till controlers valideras, t.ex. om ett input är antal spelera kan man göra en validering som kolla om man har skrivit en sifre emellan 1 och 4. 
 * [Logging](lecture20190201.md) av som händer i spelet måste implementeras (här är det en fördel om man använder ett eget API, så att man kan få med logging för även den del)
