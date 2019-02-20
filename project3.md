@@ -141,5 +141,8 @@ För att ett VG kriterium kan godkänns krävs det att där i docs mappen finns 
 * Automasik generet dokumentaion (som Mattias Karlson viste) med ett system som [Wyam](https://wyam.io) eller [DocFx](https://dotnet.github.io/docfx/)
     * *docs/vg_autodoc.md*, länk till sida vart dokumentationen finns
 * Using your own API
+    * *docs/vg_ownApi.md*
+* Responsive, if using a gameboard, make it responsive
+    * *docs/vg_responsive.md*
 * **MORE TO COME: kom med förslag**
 
