@@ -31,7 +31,7 @@ Projekt 2: [Fia Web API](project2.md)
 Projekt 3: [Fia Web App](project3.md)
 * Start: 2019-01-29, tisdag
 * Slut: 2019-02-21, torsdag, kl 10:00 (inlämning via Github, master-branch)
-* Deadline för eventuella ändringar: 2019-03-14
+* Deadline för eventuella ändringar: 2019-03-29, fredag
 
 [Skriftlig tentamen](lecture20190222.md)
 * Ordinär: 2019-02-22, fredag
