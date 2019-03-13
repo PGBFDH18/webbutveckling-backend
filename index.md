@@ -35,8 +35,9 @@ Projekt 3: [Fia Web App](project3.md)
 
 [Skriftlig tentamen](lecture20190222.md)
 * Ordinär: 2019-02-22, fredag
-* Omtenta 1: 14 dagar efter svar på Ordinär, som tidist 2019-03-08
-* Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-03-22
+    * Resultat: 2019-03-08, fredag
+* Omtenta 1: 2019-03-22, fredag
+* Omtenta 2: 14 dagar efter svar på Omtenta 1, som tidist 2019-04-05
 
 # Annan information
 * [Kursbok](book.md) : I kursen använder vi boken *ASP.NET Core in action* som frivillig material (den behövs inte för att kunna klara kursen)
